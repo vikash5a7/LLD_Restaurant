@@ -8,7 +8,7 @@ import java.util.List;
 
 
 class Kitchen {
-    private List<OrderObserver> waitStaffs;
+    private final List<OrderObserver> waitStaffs;
     public Kitchen() {
         waitStaffs = new ArrayList<>();
     }
